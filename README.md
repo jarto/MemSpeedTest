@@ -15,90 +15,90 @@ Related discussion: https://www.facebook.com/groups/137012246341854/permalink/19
 
 Some sample results:
 
-Delphi default
-Running with 4 threads
-Mean time per thread: 00.09.602
-Running with 4 threads with locks
-Mean time per thread: 00.10.859
-Running with 8 threads
-Mean time per thread: 00.09.320
-Running with 8 threads with locks
-Mean time per thread: 00.10.634
-Memory usage 1.5 -> 3,4 MB
+Delphi default<br>
+Running with 4 threads<br>
+Mean time per thread: 00.09.602<br>
+Running with 4 threads with locks<br>
+Mean time per thread: 00.10.859<br>
+Running with 8 threads<br>
+Mean time per thread: 00.09.320<br>
+Running with 8 threads with locks<br>
+Mean time per thread: 00.10.634<br>
+Memory usage 1.5 -> 3,4 MB<br>
 
-FastMM - Never
-Running with 4 threads
-Mean time per thread: 00.05.959
-Running with 4 threads with locks
-Mean time per thread: 00.18.154
-Running with 8 threads
-Mean time per thread: 00.05.301
-Running with 8 threads with locks
-Mean time per thread: 00.28.555
-Memory usage 1.5 -> 3.4 MB
+FastMM - Never<br>
+Running with 4 threads<br>
+Mean time per thread: 00.05.959<br>
+Running with 4 threads with locks<br>
+Mean time per thread: 00.18.154<br>
+Running with 8 threads<br>
+Mean time per thread: 00.05.301<br>
+Running with 8 threads with locks<br>
+Mean time per thread: 00.28.555<br>
+Memory usage 1.5 -> 3.4 MB<br>
 
-FastMM - Never & Switch
-Running with 4 threads
-Mean time per thread: 00.06.855
-Running with 4 threads with locks
-Mean time per thread: 00.18.283
-Running with 8 threads
-Mean time per thread: 00.06.576
-Running with 8 threads with locks
-Mean time per thread: 00.30.712
-Memory usage 1.5 -> 3.5 MB
+FastMM - Never & Switch<br>
+Running with 4 threads<br>
+Mean time per thread: 00.06.855<br>
+Running with 4 threads with locks<br>
+Mean time per thread: 00.18.283<br>
+Running with 8 threads<br>
+Mean time per thread: 00.06.576<br>
+Running with 8 threads with locks<br>
+Mean time per thread: 00.30.712<br>
+Memory usage 1.5 -> 3.5 MB<br>
 
-BrainMM
-Running with 4 threads
-Mean time per thread: 00.04.284
-Running with 4 threads with locks
-Mean time per thread: 00.18.994
-Running with 8 threads
-Mean time per thread: 00.03.764
-Running with 8 threads with locks
-Mean time per thread: 00.28.601
-Memory usage 1.5 -> 5.6 MB
+BrainMM<br>
+Running with 4 threads<br>
+Mean time per thread: 00.04.284<br>
+Running with 4 threads with locks<br>
+Mean time per thread: 00.18.994<br>
+Running with 8 threads<br>
+Mean time per thread: 00.03.764<br>
+Running with 8 threads with locks<br>
+Mean time per thread: 00.28.601<br>
+Memory usage 1.5 -> 5.6 MB<br>
 
-ScaleMM
-Running with 4 threads
-Mean time per thread: 00.04.327
-Running with 4 threads with locks
-Mean time per thread: 00.19.586
-Running with 8 threads
-Mean time per thread: 00.03.749
-Running with 8 threads with locks
-Mean time per thread: 00.29.568
-Memory usage 1.5 -> 14.5 MB
+ScaleMM<br>
+Running with 4 threads<br>
+Mean time per thread: 00.04.327<br>
+Running with 4 threads with locks<br>
+Mean time per thread: 00.19.586<br>
+Running with 8 threads<br>
+Mean time per thread: 00.03.749<br>
+Running with 8 threads with locks<br>
+Mean time per thread: 00.29.568<br>
+Memory usage 1.5 -> 14.5 MB<br>
 
-tcmalloc
-Running with 4 threads
-Mean time per thread: 00.04.847
-Running with 4 threads with locks
-Mean time per thread: 00.22.755
-Running with 8 threads
-Mean time per thread: 00.03.881
-Running with 8 threads with locks
-Mean time per thread: 00.33.090
-Memory usage 2.2 -> 11.9 MB
+tcmalloc<br>
+Running with 4 threads<br>
+Mean time per thread: 00.04.847<br>
+Running with 4 threads with locks<br>
+Mean time per thread: 00.22.755<br>
+Running with 8 threads<br>
+Mean time per thread: 00.03.881<br>
+Running with 8 threads with locks<br>
+Mean time per thread: 00.33.090<br>
+Memory usage 2.2 -> 11.9 MB<br>
 
 Memory usage tests with lots of threads:
 
-FastMM
-Running with 40 threads
-Mean time per thread: 00.08.896
--> 3.5 MB
+FastMM<br>
+Running with 40 threads<br>
+Mean time per thread: 00.08.896<br>
+-> 3.5 MB<br>
 
-ScaleMM
-Running with 40 threads
-Mean time per thread: 00.03.535
--> 48.9 MB
+ScaleMM<br>
+Running with 40 threads<br>
+Mean time per thread: 00.03.535<br>
+-> 48.9 MB<br>
 
-BrainMM
-Running with 40 threads
-Mean time per thread: 00.03.491
--> 5.7 MB
+BrainMM<br>
+Running with 40 threads<br>
+Mean time per thread: 00.03.491<br>
+-> 5.7 MB<br>
 
-tcmalloc
-Running with 40 threads
-Mean time per thread: 00.03.259
+tcmalloc<br>
+Running with 40 threads<br>
+Mean time per thread: 00.03.259<br>
 -> 35.9 MB
