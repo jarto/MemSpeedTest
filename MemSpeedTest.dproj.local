@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.657,=C:\Users\jarto.STARSOFT\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.967,C:\Users\jarto.STARSOFT\Documents\Embarcadero\Studio\Projects\MemSpeedTest.dproj=C:\Users\jarto.STARSOFT\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.485,C:\Users\jarto.STARSOFT\Documents\Embarcadero\Studio\Projects\MemTestForm.pas=C:\Users\jarto.STARSOFT\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.485,C:\Users\jarto.STARSOFT\Documents\Embarcadero\Studio\Projects\MemTestForm.dfm=C:\Users\jarto.STARSOFT\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.967,=C:\Users\jarto.STARSOFT\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.822,=C:\Users\jarto.STARSOFT\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
